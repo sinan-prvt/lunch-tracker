@@ -4,8 +4,9 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const API_BASE = process.env.NODE_ENV === 'production' 
-  ? 'https://your-backend-url.vercel.app/api'
+  ? 'https://lunch-tracker-backend.vercel.app/api' 
   : 'http://localhost:5000/api';
+
 
 export default function RegisterForm() {
   const [username, setUsername] = useState('');
