@@ -4,8 +4,8 @@ import { useAuth } from './AuthContext';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-const API_BASE = process.env.NODE_ENV === 'production' 
-  ? 'https://lunch-tracker-backend.vercel.app/api'
+const API_BASE = process.env.NODE_ENV === 'production'
+  ? 'https://lunch-tracker-backend.onrender.com/api'
   : 'http://localhost:5000/api';
 
 export default function LoginForm() {
