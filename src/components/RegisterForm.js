@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const API_BASE = process.env.NODE_ENV === 'production'
-  ? 'https://lunch-tracker-backend.onrender.com/api'
+  ? 'https://your-backend-deployed-url/api'
   : 'http://localhost:5000/api';
 
 
